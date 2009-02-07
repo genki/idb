@@ -1,1 +1,13 @@
 #!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), %w(.. lib))
+require 'rubygems'
+require 'optparse'
+require 'idb'
+
+Options = {}
+Version = Idb::VERSION
+opt = OptionParser.new
+opt.parse!(ARGV)
+
+Idb::run(Options)
