@@ -1,0 +1,29 @@
+
+= idb
+
+
+== Description
+
+
+== Installation
+
+=== Archive Installation
+
+	rake install
+
+=== Gem Installation
+
+	gem install idb
+
+
+== Features/Problems
+
+
+== Synopsis
+
+
+== Copyright
+
+Author::    takiuchi <takiuchi@>
+Copyright:: Copyright (c) 2009 takiuchi
+License::   
